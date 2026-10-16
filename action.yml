@@ -1,0 +1,6 @@
+name: AutoAction
+runs:
+  using: composite
+  steps:
+    - run: echo "hi, version: 1"
+      shell: bash
